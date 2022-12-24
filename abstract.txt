@@ -1,0 +1,35 @@
+Le frodi sono una minaccia che la maggior parte dei fornitori di servizi
+online deve affrontare nello sviluppo dei propri sistemi per garantire security policy efficienti.
+
+La tendenza nel settore bancario è di provare a
+identificare possibili frodi nei pagamenti digitali, sia Business to Business
+(B2B) che Business to Customer (B2C) tramite tecniche di Machine Learning(ML).
+
+L’obiettivo della tesi è di rilevare frodi in un dataset fornito da una
+banca popolare italiana composto da 317287 bonifici B2B descritti da 25 attributi,
+applicando algoritmi di ML.
+
+Dati di questo tipo sono di notevole valore economico e difficili da reperire.
+
+Essendo il dataset sprovvisto di una label che distingua le frodi
+dai bonifici ordinari è scopo di questo lavoro illustrare e utilizzare possibili 
+tecniche che possano risolvere questa criticità.
+
+Il linguaggio di programmazione utilizzato è Python insieme alle librerie
+Pandas, Scikit-learn, Flask, Pickle, Numpy, PyOD, Tensorflow, Imbalanced Learn
+
+Gli algoritmi utilizzati sono: Local Outlier Factor, Extended Isolation Forest, 
+Empirical Cumulative Distribution Functions (non supervisionati);
+Kmeans , Gaussian Mixture, k nearest neighbors (KNN), Naive Bayes(NB) (supervisionati);
+Syntethic Minority Over-sampling Technique for Nominal and Continuous (over sampling method)
+
+Lo studio è un esempio di come sia possibile combinare i vari algoritmi sopracitati allo scopo 
+di rilvare anomalie in modo consistente.
+
+L'analisi delle performance include precision, recall, F1 score e Accuracy rispetto a KNN e NB;
+dai risultati si conclude che NB ha ottenuto risultati migliori.
+
+
+
+
+
